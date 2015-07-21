@@ -1,0 +1,39 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp build-dev",
+    "prod": "gulp build-prod",
+    "deploy": "gulp deploy"
+  },
+  "author": "DICEN",
+  "license": "ISC",
+  "devDependencies": {
+    "2d-polygon-area": "^1.0.0",
+    "babel-loader": "^4.2.0",
+    "babel-runtime": "^4.0.2",
+    "core-js": "^0.5.4",
+    "css-loader": "git://github.com/webpack/css-loader.git#master",
+    "d3": "^3.5.5",
+    "file-loader": "^0.8.1",
+    "flux": "^2.0.1",
+    "gulp": "^3.8.11",
+    "gulp-rename": "^1.2.0",
+    "gulp-sftp": "^0.1.4",
+    "gulp-shell": "^0.4.0",
+    "jsx-loader": "git://github.com/petehunt/jsx-loader.git#master",
+    "lodash": "^3.2.0",
+    "node-uuid": "^1.4.3",
+    "normalize.css": "git://github.com/necolas/normalize.css.git#master",
+    "react": ">=0.13.1",
+    "react-router": "0.13.2",
+    "style-loader": "git://github.com/webpack/style-loader.git#master",
+    "superagent": "^1.2.0",
+    "url-loader": "git://github.com/webpack/url-loader.git#master",
+    "urlparser": "^0.3.9",
+    "websocket": "^1.0.17"
+  }
+}
